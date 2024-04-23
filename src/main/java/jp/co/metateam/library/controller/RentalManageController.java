@@ -73,7 +73,7 @@ public class RentalManageController {
         
         model.addAttribute("accounts", accounts);
         model.addAttribute("stockList", stockList);
-        model.addAttribute("rentalStatus", RentalStatus.values());
+        model.addAttribute("RentalStatus", RentalStatus.values());
 
 
         if (!model.containsAttribute("rentalManageDto")) {
